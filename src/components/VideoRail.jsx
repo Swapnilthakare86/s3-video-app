@@ -12,7 +12,7 @@ function VideoRail({
   return (
     <section className="row">
       <div className="row-head">
-        <h4>{title}</h4>
+        <h2>{title}</h2>
         <span>{videos.length} titles</span>
       </div>
       <div className="rail">
@@ -36,7 +36,7 @@ function VideoRail({
             )}
             <div className="tile-overlay" />
             <div className="tile-copy">
-              <h3>{video.title}</h3>
+              <h4>{video.title}</h4>
               <p>{video.meta}</p>
             </div>
             {isAdmin && (
