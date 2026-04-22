@@ -415,6 +415,13 @@ input {
   font-weight: 800;
 }
 
+.tile-copy h4 {
+  margin: 0 0 4px;
+  color: #fff;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.85);
+  font-weight: 700;
+}
+
 .tile-copy p {
   margin: 0;
   color: rgba(255, 255, 255, 0.88);
