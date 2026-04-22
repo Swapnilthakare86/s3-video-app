@@ -12,7 +12,7 @@ function VideoRail({
   return (
     <section className="row">
       <div className="row-head">
-        <h2>{title}</h2>
+        <h4>{title}</h4>
         <span>{videos.length} titles</span>
       </div>
       <div className="rail">

@@ -16,7 +16,7 @@ function Header({
   return (
     <header className="topbar">
       <div className="brand-block">
-        <div className="brand">Movies</div>
+        <div className="brand">Hotstar</div>
       </div>
       <div className="topbar-actions">
         {loggedIn && isAdmin && (
